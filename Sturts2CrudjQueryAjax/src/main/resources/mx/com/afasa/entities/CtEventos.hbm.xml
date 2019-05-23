@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 31-mar-2019 21:37:54 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="mx.com.afasa.entities.CT_EVENTOS" optimistic-lock="version" 
+         schema="PACO" table="CT_EVENTOS">
+    <id name="PK_EVENTO" type="big_decimal">
+      <column name="PK_EVENTO" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="NOMBRE" type="string">
+      <column length="100" name="NOMBRE"/>
+    </property>
+    <property name="NUMERO" type="string">
+      <column length="100" name="NUMERO"/>
+    </property>
+    <property name="MARCA" type="big_decimal">
+      <column name="MARCA" precision="22" scale="0"/>
+    </property>
+    <property name="IMAGEN_NOMBRE" type="string">
+      <column length="100" name="IMAGEN_NOMBRE"/>
+    </property>
+    <property name="IMAGEN_CONTENT" type="string">
+      <column length="100" name="IMAGEN_CONTENT"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="true" name="trEventosEjecucions" table="TR_EVENTOS_EJECUCION">
+      <key>
+        <column name="FK_EVENTO" precision="22" scale="0"/>
+      </key>
+      <one-to-many class="mx.com.afasa.entities.TR_EVENTOS_EJECUCION"/>
+    </set>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,14 @@
+mx\com\afasa\web\CleanAction.class
+mx\com\afasa\dao\TR_INVITADOS_ASISTENTEDao.class
+mx\com\afasa\entities\CT_EVENTOS.class
+mx\com\afasa\daoImpl\CT_EVENTOSDaoImpl.class
+mx\com\afasa\action\TestAction.class
+mx\com\afasa\daoImpl\TR_INVITADOS_ASISTENTEDaoImpl.class
+mx\com\afasa\daoImpl\TR_EVENTOS_EJECUCIONDaoImpl.class
+mx\com\afasa\entities\TR_INVITADOS_ASISTENTE.class
+mx\com\afasa\web\FilesAction.class
+mx\com\afasa\web\eventos\InvitacionAction.class
+mx\com\afasa\utilities\HibernateUtil.class
+mx\com\afasa\entities\TR_EVENTOS_EJECUCION.class
+mx\com\afasa\dao\TR_EVENTOS_EJECUCIONDao.class
+mx\com\afasa\dao\CT_EVENTOSDao.class

@@ -1,0 +1,39 @@
+.btn-expand {
+	max-width: 16px;
+	box-sizing: content-box;
+	color: rgba(0, 0, 0, 0) !important;
+	-webkit-transition: max-width .5s ease;
+	-moz-transition: max-width .5s ease;
+	transition: max-width .5s ease;
+}
+
+.btn-expand.btn-xs {
+	max-width: 12px;
+}
+
+.btn-expand.btn-sm {
+	max-width: 14px;
+}
+
+.btn-expand.btn-lg {
+	max-width: 18px;
+}
+
+.btn-expand span {
+	color: #333;
+}
+
+.btn-expand.btn-link span {
+	color: #428bca;
+}
+
+.btn-expand.btn-primary span, .btn-expand.btn-success span, .btn-expand.btn-info span,
+	.btn-expand.btn-warning span, .btn-expand.btn-danger span {
+	color: #fff;
+}
+
+.btn-expand:hover, .btn-expand:focus, .btn-expand:active {
+	max-width: 400px;
+	transition-duration: 1s;
+	color: #fff !important;
+}

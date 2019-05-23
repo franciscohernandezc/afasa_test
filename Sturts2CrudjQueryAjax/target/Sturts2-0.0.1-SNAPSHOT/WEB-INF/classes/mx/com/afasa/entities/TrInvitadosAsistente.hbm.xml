@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 31-mar-2019 21:37:54 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="mx.com.afasa.entities.TR_INVITADOS_ASISTENTE" optimistic-lock="version" schema="PACO" table="TR_INVITADOS_ASISTENTE">
+    <id name="PK_INVITADOS_ASISTENTE" type="big_decimal">
+      <column name="PK_INVITADOS_ASISTENTE" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <many-to-one class="mx.com.afasa.entities.TR_EVENTOS_EJECUCION"
+                 fetch="select" name="FK_EVENTO_EJECUCION">
+      <column name="FK_EVENTO_EJECUCION" precision="22" scale="0"/>
+    </many-to-one>
+    <property name="BAN_ASISTENTE" type="boolean">
+      <column name="BAN_ASISTENTE" precision="1" scale="0"/>
+    </property>
+    <property name="NOMBRE" type="string">
+      <column length="100" name="NOMBRE"/>
+    </property>
+    <property name="APP_PATERNO" type="string">
+      <column length="100" name="APP_PATERNO"/>
+    </property>
+    <property name="APP_MATERNO" type="string">
+      <column length="100" name="APP_MATERNO"/>
+    </property>
+    <property name="TELEFONO" type="string">
+      <column length="100" name="TELEFONO"/>
+    </property>
+    <property name="CORREO_ELECTRONICO" type="string">
+      <column length="100" name="CORREO_ELECTRONICO"/>
+    </property>
+    <property name="MEDIO" type="big_decimal">
+      <column name="MEDIO" precision="22" scale="0"/>
+    </property>
+    <property name="OTRO_MEDIO" type="string">
+      <column length="100" name="OTRO_MEDIO"/>
+    </property>
+    <property name="AUTO_INTERES" type="string">
+      <column length="100" name="AUTO_INTERES"/>
+    </property>
+    <property name="DISPONIBILIDAD" type="boolean">
+      <column name="DISPONIBILIDAD" precision="1" scale="0"/>
+    </property>
+    <property name="FECHA_INVITACION" type="date">
+      <column length="7" name="FECHA_INVITACION"/>
+    </property>
+    <property name="fechaAsistencia" type="date">
+      <column length="7" name="FECHA_ASISTENCIA"/>
+    </property>
+    <property name="noContrato" type="string">
+      <column length="100" name="NO_CONTRATO"/>
+    </property>
+  </class>
+</hibernate-mapping>

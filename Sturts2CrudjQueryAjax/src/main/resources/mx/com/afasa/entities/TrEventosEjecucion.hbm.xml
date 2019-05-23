@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 31-mar-2019 21:37:54 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="mx.com.afasa.entities.TR_EVENTOS_EJECUCION" optimistic-lock="version" schema="PACO" table="TR_EVENTOS_EJECUCION">
+    <id name="PK_EVENTO_EJECUCION" type="integer">
+      <column name="PK_EVENTO_EJECUCION" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <many-to-one class="mx.com.afasa.entities.CT_EVENTOS"
+                 fetch="select" name="FK_EVENTO">
+      <column name="FK_EVENTO" precision="22" scale="0"/>
+    </many-to-one>
+    <property name="UBICACION" type="string">
+      <column length="100" name="UBICACION"/>
+    </property>
+    <property name="DIRECCION" type="string">
+      <column length="100" name="DIRECCION"/>
+    </property>
+    <property name="FECHA_INICIO" type="java.util.Date">
+      <column length="7" name="FECHA_INICIO"/>
+    </property>
+    <property name="FECHA_FIN" type="java.util.Date">
+      <column length="7" name="FECHA_FIN"/>
+    </property>
+    <property name="FECHAS_HORAS" type="string">
+      <column length="100" name="FECHAS_HORAS"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="true" name="trInvitadosAsistentes" table="TR_INVITADOS_ASISTENTE">
+      <key>
+        <column name="FK_EVENTO_EJECUCION" precision="22" scale="0"/>
+      </key>
+      <one-to-many class="mx.com.afasa.entities.TR_INVITADOS_ASISTENTE"/>
+    </set>
+  </class>
+</hibernate-mapping>

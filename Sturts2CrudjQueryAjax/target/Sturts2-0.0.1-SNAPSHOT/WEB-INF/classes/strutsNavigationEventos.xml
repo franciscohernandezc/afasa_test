@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+     "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="navegacionEventos" extends="struts-default">
+
+
+
+		<!-- ******************************************************************************************* -->
+		<!-- ****************************Gestion de eventos************************************ -->
+		<!-- ******************************************************************************************* -->
+		<action name="eventosGestion" method="execute"
+			class="mx.com.afasa.action.TestAction">
+			<result>menu.jsp</result>
+		</action>
+
+		   
+                <action name="invitacionEventos" method="execute"
+		class="mx.com.afasa.web.eventos.InvitacionAction" >
+		<result>/pages/eventos/invitacion/principal.jsp</result>
+		<result name="listaAsistentes">/pages/eventos/invitacion/listaInvitados.jsp</result>
+		<result name="capturar">/pages/eventos/invitacion/captura.jsp</result>
+		<result name="messageGuardar">/pages/eventos/invitacion/guardado.jsp</result>
+		<result name="input">/pages/eventos/invitacion/captura.jsp</result>
+	</action>
+                
+
+
+	</package>
+</struts>

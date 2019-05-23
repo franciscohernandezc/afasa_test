@@ -1,0 +1,1037 @@
+@font-face {
+	font-family: 'FuturaDemi';
+	src: url('../fonts/futura/FuturaDemi.eot');
+	src: url('../fonts/futura/FuturaDemi.woff') format('woff'), url('../fonts/futura/fonts/FuturaDemi.ttf') format('truetype'), url('../fonts/futura/fonts/FuturaDemi.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src:
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadExtraBold/VWHeadWeb-ExtraBold.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src: url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadBold/VWHeadWeb-Bold.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src:
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadBoldItalic/VWHeadWeb-BoldItalic.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src: url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadRegular/VWHeadWeb-Regular.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src:
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadRegularItalic/VWHeadWeb-RegularItalic.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Volkswagen Head';
+	src: url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.eot");
+	src:
+		url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWHead/HeadLight/VWHeadWeb-Light.svg#Volkswagen_Head")
+		format("svg");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Text';
+	src: url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.eot");
+	src:
+		url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWText/TextBold/VWTextWeb-Bold.svg#Volkswagen_Text")
+		format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Text';
+	src:
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.eot");
+	src:
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWText/TextBoldItalic/VWTextWeb-BoldItalic.svg#Volkswagen_Text")
+		format("svg");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Volkswagen Text';
+	src: url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.eot");
+	src:
+		url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWText/TextRegular/VWTextWeb-Regular.svg#Volkswagen_Text")
+		format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volkswagen Text';
+	src:
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.eot");
+	src:
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWText/TextRegularItalic/VWTextWeb-RegularItalic.svg#Volkswagen_Text")
+		format("svg");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Volkswagen Text';
+	src: url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.eot");
+	src:
+		url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.eot?#iefix")
+		format("embedded-opentype"),
+		url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.woff")
+		format("woff"),
+		url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.woff2")
+		format("woff2"),
+		url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.ttf")
+		format("truetype"),
+		url("../fonts/volkswagen/VWText/TextLight/VWTextWeb-Light.svg#Volkswagen_Text")
+		format("svg");
+	font-weight: 100;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Volkswagen Text';
+}
+
+legend, .sidebar-brand {
+	font-family: 'Volkswagen Head' !important;
+	font-weight: 600;
+}
+
+body {
+	font-size: 11pt;
+	height: 100%;
+}
+
+.errorMessage {
+	color: #B94A48;
+}
+
+input.error {
+	color: #B94A48;
+	border-color: #a94442;
+}
+
+a, a:hover, a:focus {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.panelMaestra {
+	max-width: 980px;
+	overflow: auto;
+	min-width: 800px;
+	background: url('../img/patron.jpg');
+}
+
+.panelListaPrecios {
+	width: 100%;
+	overflow: auto;
+	min-width: 100%;
+	background: url('../img/patron.jpg');
+}
+
+.panelListaPrecios2 {
+	width: 100%;
+	overflow: auto;
+	min-width: 100%;
+	background: url('../img/patron.jpg');
+}
+
+.panelAbogados {
+	width: 80%;
+	padding: 25px;
+	overflow: auto;
+	background: url('../img/patron.jpg');
+}
+
+div.hr {
+	height: 2px;
+	background: #C0D0F0 no-repeat scroll center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.hr hr {
+	display: none;
+}
+
+div.hrSub {
+	height: 1px;
+	background: #AAA no-repeat scroll center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.hrSub hr {
+	display: none;
+}
+
+.mitad {
+	width: 45%;
+	margin-left: 26px;
+	float: left;
+}
+
+.tercio {
+	width: 30%;
+	margin-left: 18px;
+	float: left;
+}
+
+.cuarto {
+	width: 23%;
+	margin-left: 13px;
+	float: left;
+}
+
+.trescuarto {
+	width: 69%;
+	margin-left: 20px;
+	float: left;
+}
+
+#timer {
+	position: absolute;
+	top: 50px;
+	left: 90%;
+	background-color: #eee;
+	padding: 10px 15px;
+	border-radius: 12px 12px 30px 12px;
+	-moz-border-radius: 12px 12px 30px 12px;
+	-webkit-border-radius: 12px 12px 30px 12px;
+	border: 8px double #355e8b;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	color: black;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+table {
+	border-radius: 0px 0px 10px 10px !important;
+	-moz-border-radius: 0px 0px 10px 10px !important;
+	-webkit-border-radius: 0px 0px 10px 10px !important;
+	border: 1px solid #ddd;
+	border-collapse: initial !important;
+}
+
+.dt-buttons{
+	float: right;
+}
+
+.clavesJuzgado {
+	width: 60px;
+	border-bottom: solid 1px black;
+	float: left;
+	margin-right: 8px;
+	height: 20px;
+	text-align: center;
+}
+
+.canvasBienvenido {
+	position: relative;
+	background: transparent;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	margin-left: -30px;
+}
+
+a, button, input[type="reset"], input[type="button"], input[type="submit"],
+	input[type="file"]>input[type="button"] {
+	outline: 0 none !important;
+}
+
+a:focus, button:focus, input[type="reset"]:focus, input[type="button"]:focus,
+	input[type="submit"]:focus, input[type="file"]>input[type="button"]:focus
+	{
+	outline: 0 none !important;
+}
+
+a, button, input[type="reset"], input[type="button"], input[type="submit"],
+	input[type="file"]>input[type="button"] {
+	-webkit-transition: -webkit-transform 0.1s ease;
+	-moz-transition: -moz-transform 0.1s ease;
+	transition: transform 0.1s ease;
+}
+
+a:hover, button:hover, input[type="reset"]:hover, input[type="button"]:hover,
+	input[type="submit"]:hover, input[type="file"]>input[type="button"]:hover
+	{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transform-origin: top right;
+	-moz-transform-origin: top right;
+	-o-transform-origin: top right;
+	transform-origin: top right;
+}
+
+.fecha {
+	cursor: pointer !important;
+	background-color: #FFFFFF !important;
+}
+
+.inline-block-center {
+	text-align: center;
+	margin: 25px;
+}
+
+.inline-block-center div {
+	margin: 5px;
+	display: inline-block;
+}
+
+.inline-block-center div:hover,
+.formulario-login {
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+.mitad-border-right{
+	border: 0px;
+	border-style:solid;
+	border-right: 1px solid #C0D0F0;
+	padding-right: 25px;
+}
+
+.width-10{
+	width: 10% !important;
+}
+
+.width-20{
+	width: 20% !important;
+}
+
+.width-30{
+	width: 30% !important;
+}
+
+.width-35{
+	width: 35% !important;
+}
+
+.width-40{
+	width: 40% !important;
+}
+
+.width-50{
+	width: 50% !important;
+}
+
+.width-60{
+	width: 60% !important;
+}
+
+.width-70{
+	width: 70% !important;
+}
+
+.width-80{
+	width: 80% !important;
+}
+
+.width-90{
+	width: 90% !important;
+}
+
+.width-100{
+	width: 100% !important;
+}
+
+.width-16p{
+	width: 16px !important;
+}
+
+.width-80p{
+	width: 80px !important;
+}
+
+.width-140p{
+	width: 140px !important;
+}
+
+.width-180p{
+	width: 180px !important;
+}
+
+.width-300p{
+	width: 300px !important;
+}
+
+.width-340p{
+	width: 340px !important;
+}
+
+.width-360p{
+	width: 360px !important;
+}
+
+.width-500p{
+	width: 500px !important;
+}
+
+.width-600p{
+	width: 600px !important;
+}
+
+.width-750p{
+	width: 750px !important;
+}
+
+.width-800p{
+	width: 800px !important;
+}
+
+.width-850p{
+	width: 850px !important;
+}
+
+.errorPage{
+	padding-top: 50px;
+	padding-bottom: 220px;
+}
+
+.tablaEstado{
+	font-size: 10px;
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #999;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.margin-info-cot{
+	margin-bottom: -20px;
+}
+
+.typed-cursor{
+	display: none;
+}
+
+.display-table {
+    display: table;
+	table-layout: fixed;
+}
+
+.display-row  {
+    display: table-row;
+}
+
+.display-cell {
+    display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+
+.cellBack{
+	width: 0.1%;
+	background-color: #8a6d3b;
+}
+.cellBack2{
+	width: 0.1%;
+}
+.cell4{
+	width: 4%;
+}
+.cell3{
+	width: 3%;
+}
+.cell10{
+	width: 10%;
+}
+.cell10-2{
+	width: 9.8%;
+}
+.cell7{
+	width: 7%;
+}
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+
+.buttons-html5{
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #46b8da;
+}
+.buttons-html5:focus,
+.buttons-html5.focus {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+.buttons-html5:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.buttons-html5:active,
+.buttons-html5.active {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.buttons-html5active:hover,
+.buttons-html5.active:hover,
+.buttons-html5:active:focus,
+.buttons-html5.active:focus,
+.buttons-html5:active.focus,
+.buttons-html5.active.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.buttons-html5:active,
+.buttons-html5.active {
+  background-image: none;
+}
+
+.typeahead{
+	overflow-x: hidden;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (width: 768px) {
+    label.col-xs-12 {
+      text-align: left !important;
+    }
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{
+	font-family: 'Volkswagen Text' !important;
+}
+
+.input-group-addon{
+	cursor: pointer;
+}
+
+.underline_dotted{
+	border-bottom: 1px dotted gray;
+}
+.underline{
+	border-bottom: 1px solid black;
+}
+.underline_light{
+	border-bottom: 1px solid gray;
+}
+
+/* ==========================================================================
+Preloader Style
+========================================================================== */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: #00346f;
+}
+.preloader i {
+  color: #fff;
+  position: absolute;
+  font-size: 36px;
+  line-height: 36px;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: inline-block;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*Login*/
+.login-container{
+    position: relative;
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 2;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+#output.alert-success{
+    background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+    background: rgb(228, 105, 105);
+}
+
+
+.login-container::before,.login-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #ccc;
+
+}
+
+.login-container::after{
+    top: 5px;
+    z-index: -1;
+    -webkit-transform: rotateZ(-2deg);
+     -moz-transform: rotateZ(-2deg);
+      -ms-transform: rotateZ(-2deg);
+
+}
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+
+.form-box input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height:40px;
+    border: 1px solid #ccc;;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+
+}
+
+.form-box input:focus{
+    outline: 0;
+    background: #eee;
+}
+
+.form-box input[type="text"]{
+    border-radius: 5px 5px 0 0;
+}
+
+.form-box input[type="password"]{
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+}
+
+.form-box button.login{
+    margin-top:15px;
+    padding: 10px 20px;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.avatar{
+	background-image: url('../img/avatar.png');
+}
+
+/*Calendario*/
+#calendar {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.fc-head-container {	
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+	color: white;
+}
+
+.fc-unthemed td, .fc-unthemed th{
+	border-radius: 10px 10px 0px 0px !important;
+	-moz-border-radius: 10px 10px 0px 0px !important;
+	-webkit-border-radius: 10px 10px 0px 0px !important;
+	border: 0px solid #ddd !important;
+}
+
+.fc-view-container table {
+	border: 0px solid #ddd !important;
+	border-collapse: initial;
+}
+
+.fc-bg .fc-day{
+	border-right: 1px solid #ddd !important;
+	border-left: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+}
+
+.fc-head .fc-mon,
+.fc-head .fc-tue,
+.fc-head .fc-wed,
+.fc-head .fc-thu,
+.fc-head .fc-fri,
+.fc-head .fc-sat {
+	border-right: 1px solid #ddd !important;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  display: block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+/*Columnas de misma altura*/ 
+@media (min-width: 768px) {
+    .equal-center, .equal-center > div[class*='col-'] {  
+        display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+        flex: 1 1 auto;
+        flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+    }
+    
+    .equal, .equal > div[class*='col-'] {  
+        display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+        flex: 1 1 auto;
+        flex-wrap: wrap;
+    }
+    
+    .text-flex-right {
+        -webkit-box-pack: flex-end;
+		-moz-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+		-webkit-justify-content: flex-end;
+		justify-content: flex-end;
+    }
+}
+
+.stylish-input-group .input-group-addon{
+	background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+	border:0;
+	background:transparent;
+}
+
+table.DTFC_Cloned thead,
+table.DTFC_Cloned tfoot,
+table.DTFC_Cloned tr{
+	color: #73879C;
+}
+/*ENCUESTAS*/
+.post-content {
+    background: #000;
+    opacity: 0.5;
+	padding-top: 9px;
+    margin: 0 auto;
+    margin-top: -60px;
+	min-height: 60px;
+	height: 60px;
+    text-align: center;
+    position: relative;
+    width:100%;
+	color: #fff !important;
+}
+
+.thumbnail {
+    margin:0 0;
+	background: initial;
+	border: initial;
+}
+
+.div_survey {
+	font-size: 3em;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.div_survey .small-text{
+	font-size: 0.5em;
+}
+
+.btn-xl {
+    padding: 18px 28px;
+    font-size: 1em;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.sticky_cars{
+	position: fixed;
+	bottom: 0;
+}
+
+.go_back{
+	position: absolute;
+	top: 90px;
+	right: 50px
+}
+
+.btn-check span.glyphicon {
+	opacity: 0;
+}
+
+.btn-check.active span.glyphicon {
+	opacity: 1;
+}
